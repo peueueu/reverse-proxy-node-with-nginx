@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    meta(name="theme-color" content="#000000")
+    title Reverse Proxy Node with Nginx - FullCycle
+  body
+    header 
+      h1 #{title}
+    main
+      section
+        ul
+          each person, index in people
+            li #{person}
+      a(href="/") Add another person  
